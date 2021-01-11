@@ -67,5 +67,7 @@ function renderAvatar(user) {
         $('.text-avatar')
             .html(first)
             .show()
+
+
     }
 }

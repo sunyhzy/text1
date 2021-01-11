@@ -23,6 +23,7 @@ $.ajaxPrefilter(function(options) {
             localStorage.removeItem('token')
                 // 2. 强制跳转到登录页面
             location.href = '/login.html'
+
         }
     }
 })
